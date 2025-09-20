@@ -47,7 +47,7 @@ pom.xml                            # Maven build file
 
 **Setup instructions**
 1. Clone the repository
-   git clone https://github.com/your-username/todo-list.git
+   git clone https://github.com/snehitha-somalaraju/To-Do.git
    cd todo-list
 2. Make sure MySQL is running and create a database
    create DATABASE todo_db
