@@ -25,25 +25,6 @@ Status (Pending / Completed)
 Edit and delete tasks
 Filter tasks by status or priority
 
-**Project Structure**
-src/main/java/com/example/todo/
-  ├── TodoApplication.java         # Main Spring Boot application
-  ├── controller/TaskController.java   # Handles HTTP requests
-  ├── model/Task.java                  # Task entity/model
-  ├── repository/TaskRepository.java   # Data access layer
-  └── service/TaskService.java         # Business logic
-
-src/main/resources/
-  ├── application.properties       # App configuration
-  ├── static/css/style.css         # Custom styles
-  └── templates/                   # HTML templates (Thymeleaf)
-      ├── index.html               # Task list view
-      ├── add-task.html            # Add task form
-      └── edit-task.html           # Edit task form
-
-schema.sql                         # Database schema
-pom.xml                            # Maven build file
-
 
 **Setup instructions**
 1. Clone the repository
